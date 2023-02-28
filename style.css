@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+}
+.logo{ 
+   float: left;
+   width: 20%;
+}
+.main{
+    max-width: 350px;
+
+}
