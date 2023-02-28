@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="logo">
-      <img src="./images/logo.png" alt="logo-mailchimp" />
+      <img src="./images/logo.png" alt="logo-mailchimp" class="logo-mail" />
     </div>
     <div class="main">
       <div class="welcome">
@@ -22,39 +22,46 @@
       </div>
       <div class="form">
         <div class="form-em">
-            <label for="email">
-                <p>Email</p>
-                <input type="email" name="email">
-            </label>    
+          <label for="email">
+            <p>Email</p>
+            <input type="email" name="email" />
+          </label>
         </div>
         <div class="form-us">
-            <label for="user">
-                <p>Username</p>
-                <input type="text" name="user">
-            </label>    
+          <label for="user">
+            <p>Username</p>
+            <input type="text" name="user" />
+          </label>
         </div>
         <div class="form-ps">
-            <label for="pass">
-                <p>Password</p>
-                <input type="text" name="pass">
-            </label> 
+          <label for="pass">
+            <p>Password</p>
+            <input type="text" name="pass" />
+          </label>
         </div>
         <div class="form-ls">
-            <ul class="lista">
-                <li>One lowercase character</li>
-                <li>One uppercase character</li>
-                <li>One number</li>
-                <li>One special character</li>
-                <li>8 characers minimun</li>
-            </ul>
+          <ul class="lista">
+            <li>One lowercase character</li>
+            <li>One uppercase character</li>
+            <li>One number</li>
+            <li>One special character</li>
+            <li>8 characers minimun</li>
+          </ul>
         </div>
-        <div class="">
+        <div class="form-subcb">
+          <div class="form-subcb__sub">
             <button type="submit" class="signupbtn">Sign Up</button>
-            <input type="checkbox">I don´t want to recieve emails about new Mailchimp products, best practices, or special offers.
+          </div>
+          <div class="form-subcb__cb"></div>
+          <input type="checkbox" /><span> I don´t want to recieve emails about new
+            Mailchimp products, best practices, or special offers.</span>
         </div>
         <div class="txtfin">
-          <p>By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailchimp´s 
-            <a href="">Terms of Use</a> and <a href="">Privacy Policy</a>. </p>
+          <p>
+            By clicking the "Sign Up" button, you are creating a Mailchimp
+            account, and you agree to Mailchimp´s
+            <a href="">Terms of Use</a> and <a href="">Privacy Policy</a>.
+          </p>
         </div>
       </div>
     </div>
