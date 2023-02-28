@@ -24,7 +24,9 @@ body{
 .form-subcb{
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
     height:fit-content;
+    width: 475px;
 }
 .form-subcb__sub{
     width: 150px;
@@ -34,7 +36,18 @@ body{
     font-size: 20px;
     width: 150px;
     height: 50px;
+    opacity: 25%;
 }
+.form-subcb__cb{
+    justify-content: center;
+}
+.form-subcb__cb-cb{
+    float: left;
+    width: 40px;
+    margin: 0px 20px;
+
+}
+
 li::marker{
     color: rgb(63, 183, 223);
 }
