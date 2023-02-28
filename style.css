@@ -4,9 +4,9 @@
 }
 body{
     display: flex;
+    
 }
 .logo{ 
-   float: left;
    width: 300px;
 }
 .logo-mail{
@@ -15,7 +15,6 @@ body{
 }
 .main{
     padding-top: 25px;
-    float: right;
     width: 475px;
 }
 .main div{
@@ -24,7 +23,6 @@ body{
 .form-subcb{
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     height:fit-content;
     width: 475px;
 }
@@ -42,10 +40,9 @@ body{
     justify-content: center;
 }
 .form-subcb__cb-cb{
-    float: left;
     width: 40px;
     margin: 0px 20px;
-
+    align-self: center;
 }
 
 li::marker{
